@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import FoodItem from "./FoodItem";
 import { clearCart } from "../utils/cartSlice";
 import { useOutletContext } from "react-router-dom";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { darkMode } from "../utils/ThemeContext";
 import { lightMode } from "../utils/ThemeContext";
 
@@ -11,6 +11,10 @@ const Cart = () => {
 
   const { dark } = useContext(darkMode);
   const { light } = useContext(lightMode);
+
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  },[]);
 
   if (mainTheme === "dark") {
     theme = dark;

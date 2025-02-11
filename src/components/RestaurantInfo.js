@@ -36,6 +36,10 @@ dispatch(addItem(item));
   useEffect(() => {
     MenuAPI();
   }, []);
+  
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  },[]);
 
   async function MenuAPI() {
     try {

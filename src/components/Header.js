@@ -36,7 +36,7 @@ const loggedInUser = () => {
 
 const Header = ({settingTheme}) => {
   
-  const cartItems = useSelector((store) => store.cart.items);
+
 
   const [isLoggedIn, setIsLoggedIn] = useState(true);
 
@@ -46,11 +46,16 @@ const Header = ({settingTheme}) => {
   const { light } = useContext(lightMode);
 
   const [theme, setTheme] = useState(light);
+  const cartItems = useSelector((store) => store.cart.items);
 
   useEffect(() => {
     theme;
 
   }, [theme]);
+
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  },[]);
 
   return (
     <div className="fixed top-0 w-full">
@@ -59,7 +64,9 @@ const Header = ({settingTheme}) => {
     >
   
       <Title />
-      <h1>{useOnline() ? `Online : ✔️ ${user.name} ` : `Offline : ❌ `}</h1>
+      <div className="text-3xl font-extrabold tracking-wide drop-shadow-lg">QuickEats</div>
+
+      <h1>{useOnline() ? `Online : ✔️ User ` : `Offline : ❌ `}</h1>
       <div className="nav-items">
         <ul className="flex gap-5 pr-48">
           <li>

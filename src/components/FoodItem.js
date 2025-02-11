@@ -5,7 +5,6 @@ import { Themefinder } from "./restcard";
 
 
 
-Themefinder
 
 
 

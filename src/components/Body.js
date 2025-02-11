@@ -9,9 +9,11 @@ import { useOutletContext } from "react-router-dom";
 import { useContext } from "react";
 import { darkMode, lightMode } from "../utils/ThemeContext";
 import { Themefinder } from "./restcard";
+import Landing from "./Landing";
 let flag = 0;
 // const sample= [{"info":{"name":"","cuisines":[""],"cloudinaryImageId":"","sla":{"lastMileTravelString":""}}}];
 const Body = () => {
+  
 
   const {mainTheme}=useOutletContext();
  
@@ -76,7 +78,9 @@ setFilteredRestaurants(data?.data?.cards[1]?.card?.card?.gridElements?.infoWithS
 
 
 const isOnline = useOnline();
-
+useEffect(()=>{
+  window.scrollTo(0,0);
+},[]);
 if(!isOnline ){
   return <h1>🔴You are offline, please check your internet connection🔴</h1>
 }
@@ -85,6 +89,8 @@ if(filteredRestaurants.length===0 && flag!=0){
   return (
     <>
     <div className="py-20">
+    
+
     <div className={`search-container p-2 ${theme.bg} my-5 flex justify-center `}>
     <input
         type="text"
@@ -127,6 +133,7 @@ return (
 
 
   <>
+  
     <div className="py-20">
     <div className={`search-container p-2 ${theme.bg} my-5 flex justify-center`}>
       <input
@@ -153,6 +160,7 @@ return (
         Search
       </button>
     </div>
+    
     <div className="flex flex-wrap px-6 justify-center ">
       {filteredRestaurants.map((restaurant, index) => {
         // restaurants.map mein restaurants is the main list above which will be given here after search button clicked
