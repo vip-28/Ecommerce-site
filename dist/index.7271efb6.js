@@ -66600,12 +66600,7 @@ const Cart = ()=>{
     const handleData = ()=>{
         dispatch((0, _cartSlice.clearCart)());
     };
-    let sum = 0;
-    cartItems.map((item)=>{
-        item.price = Number(item.price);
-        sum += item.price;
-    });
-    sum = sum / 100;
+    let sum = cartItems.reduce((total, item)=>total + Number(item.price || 0), 0) / 100;
     let grandTotal = sum + 30 + sum * 12 / 100 + 1 + 50 - 75;
     let orderID = Math.floor(Math.random() * 10000000);
     if (cartItems.length !== 0) return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
@@ -66791,7 +66786,6 @@ exports.default = void 0;
 var _reactRedux = require("77446e5718dd1228");
 var _config = require("728aa19df3261c40");
 var _cartSlice = require("318557dd07fd5278");
-var _restcard = require("2eae3912f1b9745");
 var _jsxRuntime = require("7e19501ec26c16dd");
 const FoodItem = (item)=>{
     const { id, name, description, imageId, price } = item;
@@ -66800,10 +66794,10 @@ const FoodItem = (item)=>{
         dispatch((0, _cartSlice.removeItem)(item));
     };
     return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
-        className: `grid grid-flow-row ${theme.text}`,
+        className: `grid grid-flow-row text-orange-500`,
         children: [
             /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
-                className: `border-2 border-solid ${theme.border} inline-block w-72 p-4 text-center`,
+                className: `border-2 border-solid  inline-block w-72 p-4 text-center`,
                 children: [
                     /*#__PURE__*/ (0, _jsxRuntime.jsx)("img", {
                         className: "h-64 w-full ",
@@ -66832,7 +66826,7 @@ const FoodItem = (item)=>{
                 ]
             }),
             /*#__PURE__*/ (0, _jsxRuntime.jsx)("button", {
-                className: "bg-stone-500 hover:bg-stone-700 active:bg-stone-900 p-2 h-10",
+                className: "bg-stone-700 hover:bg-stone-900 active:bg-stone-900 p-2 h-10",
                 onClick: ()=>{
                     removefooditem(item);
                 },
@@ -66851,7 +66845,7 @@ $RefreshReg$(_c, "FoodItem");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"77446e5718dd1228":"62sf7","728aa19df3261c40":"4T6KH","318557dd07fd5278":"5RXlr","2eae3912f1b9745":"8jrXx","7e19501ec26c16dd":"6AEwr","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kpsOA":[function(require,module,exports,__globalThis) {
+},{"77446e5718dd1228":"62sf7","728aa19df3261c40":"4T6KH","318557dd07fd5278":"5RXlr","7e19501ec26c16dd":"6AEwr","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kpsOA":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$9d43 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;

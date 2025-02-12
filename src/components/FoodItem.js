@@ -1,7 +1,6 @@
 import { useDispatch } from "react-redux";
 import { IMG_CDN_URL } from "./config";
 import { removeItem } from "../utils/cartSlice";
-import { Themefinder } from "./restcard";
 
 
 
@@ -16,8 +15,8 @@ const removefooditem= (item)=>{
 dispatch(removeItem(item))
 }
     return(
-        <div className={`grid grid-flow-row ${theme.text}`}> 
-        <div className={`border-2 border-solid ${theme.border} inline-block w-72 p-4 text-center`}>
+        <div className={`grid grid-flow-row text-orange-500`}> 
+        <div className={`border-2 border-solid  inline-block w-72 p-4 text-center`}>
             
             <img className="h-64 w-full " alt="Picture Not Available" src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/"+imageId} />
             <h2 className="text-sm " >{id}</h2>
@@ -27,7 +26,7 @@ dispatch(removeItem(item))
             
 
         </div>
-            <button className="bg-stone-500 hover:bg-stone-700 active:bg-stone-900 p-2 h-10" onClick={()=>{
+            <button className="bg-stone-700 hover:bg-stone-900 active:bg-stone-900 p-2 h-10" onClick={()=>{
                 removefooditem(item)
 
             } }>Remove Item</button>

@@ -15,6 +15,7 @@ const Cart = () => {
   useEffect(()=>{
     window.scrollTo(0,0);
   },[]);
+  
   let theme=light;
 
   if (mainTheme === "dark") {
@@ -29,12 +30,8 @@ const Cart = () => {
     dispatch(clearCart());
   };
 
-  let sum = 0;
-  cartItems.map((item) => {
-    item.price = Number(item.price);
-    sum += item.price;
-  });
-  sum = sum / 100;
+  let sum = cartItems.reduce((total, item) => total + Number(item.price || 0), 0) / 100;
+
 
   let grandTotal = sum + 30 + (sum * 12) / 100 + 1 + 50 - 75;
 
