@@ -79,13 +79,11 @@ const AppLayout = () => {
   }
 
   return (
-    <Provider store={store}>
       <div className={`${theme.bgapp} text-white duration-500`}>
         <Header settingTheme={settingTheme} />
         <Outlet context={{ mainTheme }} />
         <Footer />
       </div>
-    </Provider>
   );
 };
 
@@ -140,4 +138,11 @@ const appRouter = createBrowserRouter([
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<RouterProvider router={appRouter} />);
+root.render(
+  <Provider store={store}>
+
+<RouterProvider router={appRouter} />
+</Provider>
+)
+;
+

@@ -3044,22 +3044,19 @@ const AppLayout = ()=>{
     const { light } = (0, _react.useContext)(_lightContext.default);
     if (mainTheme === "dark") theme = dark;
     else theme = light;
-    return /*#__PURE__*/ (0, _jsxRuntime.jsx)(_reactRedux.Provider, {
-        store: _store.default,
-        children: /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
-            className: `${theme.bgapp} text-white duration-500`,
-            children: [
-                /*#__PURE__*/ (0, _jsxRuntime.jsx)(_Header.default, {
-                    settingTheme: settingTheme
-                }),
-                /*#__PURE__*/ (0, _jsxRuntime.jsx)(_reactRouterDom.Outlet, {
-                    context: {
-                        mainTheme
-                    }
-                }),
-                /*#__PURE__*/ (0, _jsxRuntime.jsx)(_Footer.default, {})
-            ]
-        })
+    return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
+        className: `${theme.bgapp} text-white duration-500`,
+        children: [
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)(_Header.default, {
+                settingTheme: settingTheme
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)(_reactRouterDom.Outlet, {
+                context: {
+                    mainTheme
+                }
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)(_Footer.default, {})
+        ]
     });
 };
 _c = AppLayout;
@@ -3107,8 +3104,11 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
     }
 ]);
 const root = _client.default.createRoot(document.getElementById("root"));
-root.render(/*#__PURE__*/ (0, _jsxRuntime.jsx)(_reactRouterDom.RouterProvider, {
-    router: appRouter
+root.render(/*#__PURE__*/ (0, _jsxRuntime.jsx)(_reactRedux.Provider, {
+    store: _store.default,
+    children: /*#__PURE__*/ (0, _jsxRuntime.jsx)(_reactRouterDom.RouterProvider, {
+        router: appRouter
+    })
 }));
 var _c;
 $RefreshReg$(_c, "AppLayout");
@@ -26540,10 +26540,12 @@ function _interopRequireDefault(e) {
 }
 let a = 0;
 const Title = ()=>{
+    const { light } = (0, _react.useContext)(_ThemeContext.lightMode);
+    const [theme] = (0, _react.useState)(light);
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)("a", {
         href: "/",
         children: /*#__PURE__*/ (0, _jsxRuntime.jsx)("img", {
-            className: ` p-1 h-20 w-24 ${theme.image} } duration-500`,
+            className: `p-1 h-20 w-24 ${theme?.image} duration-500`,
             alt: "logo",
             src: require("3d7050a8972723c0")
         })
@@ -26559,12 +26561,19 @@ const Header = ({ settingTheme })=>{
     const { user } = (0, _react.useContext)(_UserContext.default);
     const { dark } = (0, _react.useContext)(_ThemeContext.darkMode);
     const { light } = (0, _react.useContext)(_ThemeContext.lightMode);
-    const [theme1, setTheme] = (0, _react.useState)(light);
-    const cartItems = (0, _reactRedux.useSelector)((store)=>store.cart.items);
+    const [theme, setTheme] = (0, _react.useState)(light);
+    const cartItems = (0, _reactRedux.useSelector)((store)=>{
+        try {
+            return store?.cart?.items || [];
+        } catch (error) {
+            console.error('Error accessing cart items:', error);
+            return [];
+        }
+    });
     (0, _react.useEffect)(()=>{
-        theme1;
+        theme;
     }, [
-        theme1
+        theme
     ]);
     (0, _react.useEffect)(()=>{
         window.scrollTo(0, 0);
@@ -26572,7 +26581,7 @@ const Header = ({ settingTheme })=>{
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)("div", {
         className: "fixed top-0 w-full",
         children: /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
-            className: `flex justify-between ${theme1?.bg} items-center shadow-lg ${theme1.text} px-3 `,
+            className: `flex justify-between ${theme?.bg} items-center shadow-lg ${theme.text} px-3 `,
             children: [
                 /*#__PURE__*/ (0, _jsxRuntime.jsx)(Title, {}),
                 /*#__PURE__*/ (0, _jsxRuntime.jsx)("div", {
@@ -26645,7 +26654,7 @@ const Header = ({ settingTheme })=>{
                                 setTheme(light);
                                 settingTheme("light");
                             },
-                            className: `p-2 ${theme1.fill2} `,
+                            className: `p-2 ${theme.fill2} `,
                             children: /*#__PURE__*/ (0, _jsxRuntime.jsx)("svg", {
                                 xmlns: "http://www.w3.org/2000/svg",
                                 height: "24px",
@@ -26662,7 +26671,7 @@ const Header = ({ settingTheme })=>{
                                 settingTheme("dark");
                                 console.log();
                             },
-                            className: `p-2 ${theme1.fill} `,
+                            className: `p-2 ${theme.fill} `,
                             children: /*#__PURE__*/ (0, _jsxRuntime.jsx)("svg", {
                                 xmlns: "http://www.w3.org/2000/svg",
                                 height: "24px",

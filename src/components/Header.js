@@ -15,20 +15,19 @@ import { render } from "@testing-library/react";
 let a=0;
 
 export const Title = () => {
-
+  const { light } = useContext(lightMode);
+  const [theme] = useState(light);
 
   return (
     <a href="/">
       <img
-        className={` p-1 h-20 w-24 ${theme.image} } duration-500`}
+        className={`p-1 h-20 w-24 ${theme?.image} duration-500`}
         alt="logo"
         src={require(`./mocks/file.png`)}
-        
       />
     </a>
   );
 };
-
 
 const loggedInUser = () => {
   return false;
@@ -46,7 +45,14 @@ const Header = ({settingTheme}) => {
   const { light } = useContext(lightMode);
 
   const [theme, setTheme] = useState(light);
-  const cartItems = useSelector((store) => store.cart.items);
+  const cartItems = useSelector((store) => {
+    try {
+      return store?.cart?.items || [];
+    } catch (error) {
+      console.error('Error accessing cart items:', error);
+      return [];
+    }
+  });
 
   useEffect(() => {
     theme;
