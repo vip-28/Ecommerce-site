@@ -52948,7 +52948,7 @@ const Body = ()=>{
                 "data": {
                     "statusMessage": "done successfully",
                     "pageOffset": {
-                        "nextOffset": "CJhlELQ4KIDo8qSGt72DHjCnEzgC",
+                        "nextOffset": "CJhlELQ4KIDIgebxpbvWATCnEzgC",
                         "widgetOffset": {
                             "NewListingView_category_bar_chicletranking_TwoRows": "",
                             "NewListingView_category_bar_chicletranking_TwoRows_Rendition": "",
@@ -53846,7 +53846,7 @@ const Body = ()=>{
                                                         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                                     },
                                                     "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
                                                     },
                                                     "cta": {
                                                         "link": "https://www.swiggy.com/city/bhopal/pizza-hut-vidhya-nagar-hoshangabad-road-rest121782",
@@ -53872,10 +53872,10 @@ const Body = ()=>{
                                                         "avgRatingString": "4.4",
                                                         "totalRatingsString": "3.3K+",
                                                         "sla": {
-                                                            "deliveryTime": 35,
+                                                            "deliveryTime": 37,
                                                             "lastMileTravel": 4.9,
                                                             "serviceability": "SERVICEABLE",
-                                                            "slaString": "30-35 mins",
+                                                            "slaString": "35-40 mins",
                                                             "lastMileTravelString": "4.9 km",
                                                             "iconType": "ICON_TYPE_EMPTY"
                                                         },
@@ -53931,7 +53931,7 @@ const Body = ()=>{
                                                         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                                     },
                                                     "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
                                                     },
                                                     "cta": {
                                                         "link": "https://www.swiggy.com/city/bhopal/subway-hoshangabad-road-rest100605",
@@ -53956,10 +53956,10 @@ const Body = ()=>{
                                                         "avgRatingString": "4.6",
                                                         "totalRatingsString": "315",
                                                         "sla": {
-                                                            "deliveryTime": 21,
+                                                            "deliveryTime": 16,
                                                             "lastMileTravel": 2.3,
                                                             "serviceability": "SERVICEABLE",
-                                                            "slaString": "20-25 mins",
+                                                            "slaString": "15-20 mins",
                                                             "lastMileTravelString": "2.3 km",
                                                             "iconType": "ICON_TYPE_EMPTY"
                                                         },
@@ -54015,7 +54015,7 @@ const Body = ()=>{
                                                         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                                     },
                                                     "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
                                                     },
                                                     "cta": {
                                                         "link": "https://www.swiggy.com/city/bhopal/baskin-robbins-ice-cream-desserts-aura-mall-gulmohar-colony-rest472704",
@@ -54040,7 +54040,7 @@ const Body = ()=>{
                                                         "avgRatingString": "4.3",
                                                         "totalRatingsString": "4.8K+",
                                                         "sla": {
-                                                            "deliveryTime": 43,
+                                                            "deliveryTime": 42,
                                                             "lastMileTravel": 8.4,
                                                             "serviceability": "SERVICEABLE",
                                                             "slaString": "40-45 mins",
@@ -54099,7 +54099,7 @@ const Body = ()=>{
                                                         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                                     },
                                                     "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
                                                     },
                                                     "cta": {
                                                         "link": "https://www.swiggy.com/city/bhopal/burger-singh-big-punjabi-burgers-db-city-mall-maharana-pratap-nagar-rest572870",
@@ -54130,7 +54130,7 @@ const Body = ()=>{
                                                         "avgRatingString": "4.4",
                                                         "totalRatingsString": "9.7K+",
                                                         "sla": {
-                                                            "deliveryTime": 18,
+                                                            "deliveryTime": 17,
                                                             "lastMileTravel": 1.7,
                                                             "serviceability": "SERVICEABLE",
                                                             "slaString": "15-20 mins",
@@ -54216,7 +54216,7 @@ const Body = ()=>{
                                                         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                                     },
                                                     "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
                                                     },
                                                     "cta": {
                                                         "link": "https://www.swiggy.com/city/bhopal/sharma-and-vishnu-fast-food-gulmohar-colony-rohit-nagar-rest140201",
@@ -54243,7 +54243,7 @@ const Body = ()=>{
                                                         "avgRatingString": "4.3",
                                                         "totalRatingsString": "567",
                                                         "sla": {
-                                                            "deliveryTime": 17,
+                                                            "deliveryTime": 16,
                                                             "lastMileTravel": 2.1,
                                                             "serviceability": "SERVICEABLE",
                                                             "slaString": "15-20 mins",
@@ -54302,7 +54302,7 @@ const Body = ()=>{
                                                         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                                     },
                                                     "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
                                                     },
                                                     "cta": {
                                                         "link": "https://www.swiggy.com/city/bhopal/ganesham-fast-food-laxmi-parisar-rohit-nagar-rest740645",
@@ -54329,7 +54329,7 @@ const Body = ()=>{
                                                         "avgRatingString": "4.3",
                                                         "totalRatingsString": "912",
                                                         "sla": {
-                                                            "deliveryTime": 18,
+                                                            "deliveryTime": 19,
                                                             "lastMileTravel": 1.1,
                                                             "serviceability": "SERVICEABLE",
                                                             "slaString": "15-20 mins",
@@ -54389,10 +54389,100 @@ const Body = ()=>{
                                                         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                                     },
                                                     "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
                                                     },
                                                     "cta": {
                                                         "link": "https://www.swiggy.com/city/bhopal/dum-safar-biryani-bawadia-kalan-gulohar-rest639487",
+                                                        "type": "WEBLINK"
+                                                    }
+                                                },
+                                                {
+                                                    "info": {
+                                                        "id": "106684",
+                                                        "name": "Da Pizzeria",
+                                                        "cloudinaryImageId": "caduk6r0df4mt90nvris",
+                                                        "locality": "Gulmohar Colony",
+                                                        "areaName": "Kolar Road",
+                                                        "costForTwo": "\u20B9300 for two",
+                                                        "cuisines": [
+                                                            "Pizzas",
+                                                            "Pastas",
+                                                            "Italian",
+                                                            "Snacks",
+                                                            "Beverages",
+                                                            "Desserts"
+                                                        ],
+                                                        "avgRating": 4.2,
+                                                        "parentId": "7067",
+                                                        "avgRatingString": "4.2",
+                                                        "totalRatingsString": "6.5K+",
+                                                        "sla": {
+                                                            "deliveryTime": 33,
+                                                            "lastMileTravel": 3.8,
+                                                            "serviceability": "SERVICEABLE",
+                                                            "slaString": "30-35 mins",
+                                                            "lastMileTravelString": "3.8 km",
+                                                            "iconType": "ICON_TYPE_EMPTY"
+                                                        },
+                                                        "availability": {
+                                                            "nextCloseTime": "2025-02-12 23:59:00",
+                                                            "opened": true
+                                                        },
+                                                        "badges": {
+                                                            "imageBadges": [
+                                                                {
+                                                                    "imageId": "Rxawards/_CATEGORY-Pizza.png",
+                                                                    "description": "Delivery!"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "isOpen": true,
+                                                        "type": "F",
+                                                        "badgesV2": {
+                                                            "entityBadges": {
+                                                                "imageBased": {
+                                                                    "badgeObject": [
+                                                                        {
+                                                                            "attributes": {
+                                                                                "description": "Delivery!",
+                                                                                "imageId": "Rxawards/_CATEGORY-Pizza.png"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "textBased": {},
+                                                                "textExtendedBadges": {}
+                                                            }
+                                                        },
+                                                        "aggregatedDiscountInfoV3": {
+                                                            "header": "50% OFF",
+                                                            "subHeader": "UPTO \u20B9100"
+                                                        },
+                                                        "differentiatedUi": {
+                                                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                            "differentiatedUiMediaDetails": {
+                                                                "lottie": {},
+                                                                "video": {}
+                                                            }
+                                                        },
+                                                        "reviewsSummary": {},
+                                                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                                        "restaurantOfferPresentationInfo": {},
+                                                        "externalRatings": {
+                                                            "aggregatedRating": {
+                                                                "rating": "3.6",
+                                                                "ratingCount": "291"
+                                                            },
+                                                            "source": "GOOGLE",
+                                                            "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                                                        },
+                                                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                                    },
+                                                    "analytics": {
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
+                                                    },
+                                                    "cta": {
+                                                        "link": "https://www.swiggy.com/city/bhopal/da-pizzeria-gulmohar-colony-kolar-road-rest106684",
                                                         "type": "WEBLINK"
                                                     }
                                                 },
@@ -54417,7 +54507,7 @@ const Body = ()=>{
                                                         "avgRatingString": "3.6",
                                                         "totalRatingsString": "54",
                                                         "sla": {
-                                                            "deliveryTime": 18,
+                                                            "deliveryTime": 16,
                                                             "lastMileTravel": 0.9,
                                                             "serviceability": "SERVICEABLE",
                                                             "slaString": "15-20 mins",
@@ -54476,7 +54566,7 @@ const Body = ()=>{
                                                         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                                     },
                                                     "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
                                                     },
                                                     "cta": {
                                                         "link": "https://www.swiggy.com/city/bhopal/barista-coffee-salaiya-rest717664",
@@ -54504,7 +54594,7 @@ const Body = ()=>{
                                                         "avgRatingString": "4.2",
                                                         "totalRatingsString": "1.7K+",
                                                         "sla": {
-                                                            "deliveryTime": 22,
+                                                            "deliveryTime": 20,
                                                             "lastMileTravel": 1.1,
                                                             "serviceability": "SERVICEABLE",
                                                             "slaString": "20-25 mins",
@@ -54548,7 +54638,7 @@ const Body = ()=>{
                                                         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                                     },
                                                     "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
                                                     },
                                                     "cta": {
                                                         "link": "https://www.swiggy.com/city/bhopal/barbeque-nation-bawadiya-kalan-gulmohar-colony-rest295098",
@@ -54628,7 +54718,7 @@ const Body = ()=>{
                                                         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                                     },
                                                     "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
                                                     },
                                                     "cta": {
                                                         "link": "https://www.swiggy.com/city/bhopal/biggies-burger-gulmohar-colony-kolar-road-rest664041",
@@ -54653,7 +54743,7 @@ const Body = ()=>{
                                                         "avgRatingString": "4.5",
                                                         "totalRatingsString": "17K+",
                                                         "sla": {
-                                                            "deliveryTime": 23,
+                                                            "deliveryTime": 25,
                                                             "lastMileTravel": 3.7,
                                                             "serviceability": "SERVICEABLE",
                                                             "slaString": "20-25 mins",
@@ -54722,7 +54812,7 @@ const Body = ()=>{
                                                         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                                     },
                                                     "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
                                                     },
                                                     "cta": {
                                                         "link": "https://www.swiggy.com/city/bhopal/sagar-gaire-kolar-road-rest97062",
@@ -54747,10 +54837,10 @@ const Body = ()=>{
                                                         "avgRatingString": "4.0",
                                                         "totalRatingsString": "131",
                                                         "sla": {
-                                                            "deliveryTime": 17,
+                                                            "deliveryTime": 20,
                                                             "lastMileTravel": 2.2,
                                                             "serviceability": "SERVICEABLE",
-                                                            "slaString": "15-20 mins",
+                                                            "slaString": "20-25 mins",
                                                             "lastMileTravelString": "2.2 km",
                                                             "iconType": "ICON_TYPE_EMPTY"
                                                         },
@@ -54790,7 +54880,7 @@ const Body = ()=>{
                                                         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                                     },
                                                     "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
                                                     },
                                                     "cta": {
                                                         "link": "https://www.swiggy.com/city/bhopal/pvr-cafe-shahpura-aura-mall-rest301334",
@@ -54819,10 +54909,10 @@ const Body = ()=>{
                                                         "avgRatingString": "4.6",
                                                         "totalRatingsString": "85",
                                                         "sla": {
-                                                            "deliveryTime": 17,
+                                                            "deliveryTime": 20,
                                                             "lastMileTravel": 2.4,
                                                             "serviceability": "SERVICEABLE",
-                                                            "slaString": "15-20 mins",
+                                                            "slaString": "20-25 mins",
                                                             "lastMileTravelString": "2.4 km",
                                                             "iconType": "ICON_TYPE_EMPTY"
                                                         },
@@ -54878,7 +54968,7 @@ const Body = ()=>{
                                                         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                                     },
                                                     "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
                                                     },
                                                     "cta": {
                                                         "link": "https://www.swiggy.com/city/bhopal/veg-daawat-by-behrouz-trilanga-gulmohar-colony-rest574962",
@@ -54905,7 +54995,7 @@ const Body = ()=>{
                                                         "avgRatingString": "4.6",
                                                         "totalRatingsString": "419",
                                                         "sla": {
-                                                            "deliveryTime": 22,
+                                                            "deliveryTime": 24,
                                                             "lastMileTravel": 2.4,
                                                             "serviceability": "SERVICEABLE",
                                                             "slaString": "20-25 mins",
@@ -54964,7 +55054,7 @@ const Body = ()=>{
                                                         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                                     },
                                                     "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
                                                     },
                                                     "cta": {
                                                         "link": "https://www.swiggy.com/city/bhopal/veg-meals-by-lunchbox-trilanga-gulmohar-colony-rest263732",
@@ -54991,7 +55081,7 @@ const Body = ()=>{
                                                         "avgRatingString": "4.3",
                                                         "totalRatingsString": "197",
                                                         "sla": {
-                                                            "deliveryTime": 23,
+                                                            "deliveryTime": 25,
                                                             "lastMileTravel": 2.4,
                                                             "serviceability": "SERVICEABLE",
                                                             "slaString": "20-25 mins",
@@ -55034,7 +55124,7 @@ const Body = ()=>{
                                                         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                                     },
                                                     "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
                                                     },
                                                     "cta": {
                                                         "link": "https://www.swiggy.com/city/bhopal/faasos-signature-wraps-and-rolls-trilanga-gulmohar-colony-rest566190",
@@ -55062,7 +55152,7 @@ const Body = ()=>{
                                                         "avgRatingString": "4.1",
                                                         "totalRatingsString": "72",
                                                         "sla": {
-                                                            "deliveryTime": 19,
+                                                            "deliveryTime": 20,
                                                             "lastMileTravel": 2.4,
                                                             "serviceability": "SERVICEABLE",
                                                             "slaString": "15-20 mins",
@@ -55106,7 +55196,7 @@ const Body = ()=>{
                                                         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                                     },
                                                     "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
                                                     },
                                                     "cta": {
                                                         "link": "https://www.swiggy.com/city/bhopal/makhani-darbar-auramall-rk-trilanga-rest801294",
@@ -55132,10 +55222,10 @@ const Body = ()=>{
                                                         "avgRatingString": "4.2",
                                                         "totalRatingsString": "13K+",
                                                         "sla": {
-                                                            "deliveryTime": 34,
+                                                            "deliveryTime": 36,
                                                             "lastMileTravel": 7.6,
                                                             "serviceability": "SERVICEABLE",
-                                                            "slaString": "30-35 mins",
+                                                            "slaString": "35-40 mins",
                                                             "lastMileTravelString": "7.6 km",
                                                             "iconType": "ICON_TYPE_EMPTY"
                                                         },
@@ -55195,7 +55285,7 @@ const Body = ()=>{
                                                         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                                     },
                                                     "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
                                                     },
                                                     "cta": {
                                                         "link": "https://www.swiggy.com/city/bhopal/anjani-bhojnalay-maharana-pratap-nagar-mp-nagar-rest76940",
@@ -55222,7 +55312,7 @@ const Body = ()=>{
                                                         "avgRatingString": "4.2",
                                                         "totalRatingsString": "10K+",
                                                         "sla": {
-                                                            "deliveryTime": 28,
+                                                            "deliveryTime": 26,
                                                             "lastMileTravel": 4.4,
                                                             "serviceability": "SERVICEABLE",
                                                             "slaString": "25-30 mins",
@@ -55281,7 +55371,7 @@ const Body = ()=>{
                                                         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                                     },
                                                     "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
                                                     },
                                                     "cta": {
                                                         "link": "https://www.swiggy.com/city/bhopal/anjani-veg-bhojnalay-danish-nagar-hoshangabad-road-rest235518",
@@ -55310,10 +55400,10 @@ const Body = ()=>{
                                                         "avgRatingString": "4.7",
                                                         "totalRatingsString": "6.1K+",
                                                         "sla": {
-                                                            "deliveryTime": 32,
+                                                            "deliveryTime": 29,
                                                             "lastMileTravel": 5.6,
                                                             "serviceability": "SERVICEABLE",
-                                                            "slaString": "30-35 mins",
+                                                            "slaString": "25-30 mins",
                                                             "lastMileTravelString": "5.6 km",
                                                             "iconType": "ICON_TYPE_EMPTY"
                                                         },
@@ -55366,97 +55456,10 @@ const Body = ()=>{
                                                         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                                     },
                                                     "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
                                                     },
                                                     "cta": {
                                                         "link": "https://www.swiggy.com/city/bhopal/manohar-dairy-10-no-market-rest386982",
-                                                        "type": "WEBLINK"
-                                                    }
-                                                },
-                                                {
-                                                    "info": {
-                                                        "id": "717479",
-                                                        "name": "La Pino'z Pizza",
-                                                        "cloudinaryImageId": "5c8df5fba62c69b224891be99638fd0e",
-                                                        "locality": "Kolar Road",
-                                                        "areaName": "Windsor Plaza",
-                                                        "costForTwo": "\u20B9400 for two",
-                                                        "cuisines": [
-                                                            "Pizzas",
-                                                            "Pastas",
-                                                            "Italian",
-                                                            "Desserts",
-                                                            "Beverages"
-                                                        ],
-                                                        "avgRating": 4.3,
-                                                        "veg": true,
-                                                        "parentId": "4961",
-                                                        "avgRatingString": "4.3",
-                                                        "totalRatingsString": "1.8K+",
-                                                        "sla": {
-                                                            "deliveryTime": 21,
-                                                            "lastMileTravel": 3.7,
-                                                            "serviceability": "SERVICEABLE",
-                                                            "slaString": "20-25 mins",
-                                                            "lastMileTravelString": "3.7 km",
-                                                            "iconType": "ICON_TYPE_EMPTY"
-                                                        },
-                                                        "availability": {
-                                                            "nextCloseTime": "2025-02-13 05:00:00",
-                                                            "opened": true
-                                                        },
-                                                        "badges": {
-                                                            "imageBadges": [
-                                                                {
-                                                                    "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Pizza.png",
-                                                                    "description": "Delivery!"
-                                                                }
-                                                            ]
-                                                        },
-                                                        "isOpen": true,
-                                                        "type": "F",
-                                                        "badgesV2": {
-                                                            "entityBadges": {
-                                                                "imageBased": {
-                                                                    "badgeObject": [
-                                                                        {
-                                                                            "attributes": {
-                                                                                "description": "Delivery!",
-                                                                                "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Pizza.png"
-                                                                            }
-                                                                        }
-                                                                    ]
-                                                                },
-                                                                "textBased": {},
-                                                                "textExtendedBadges": {}
-                                                            }
-                                                        },
-                                                        "aggregatedDiscountInfoV3": {
-                                                            "header": "50% OFF",
-                                                            "subHeader": "UPTO \u20B9100"
-                                                        },
-                                                        "differentiatedUi": {
-                                                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                                                            "differentiatedUiMediaDetails": {
-                                                                "lottie": {},
-                                                                "video": {}
-                                                            }
-                                                        },
-                                                        "reviewsSummary": {},
-                                                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                                                        "restaurantOfferPresentationInfo": {},
-                                                        "externalRatings": {
-                                                            "aggregatedRating": {
-                                                                "rating": "--"
-                                                            }
-                                                        },
-                                                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                                                    },
-                                                    "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
-                                                    },
-                                                    "cta": {
-                                                        "link": "https://www.swiggy.com/city/bhopal/la-pinoz-pizza-kolar-road-windsor-plaza-rest717479",
                                                         "type": "WEBLINK"
                                                     }
                                                 }
@@ -55519,7 +55522,7 @@ const Body = ()=>{
                                             "title": "Cost: High to Low"
                                         }
                                     ],
-                                    "restaurantCount": 1824,
+                                    "restaurantCount": 1825,
                                     "facetList": [
                                         {
                                             "label": "Delivery Time",
@@ -56373,6 +56376,82 @@ const Body = ()=>{
                                             "restaurants": [
                                                 {
                                                     "info": {
+                                                        "id": "1016086",
+                                                        "name": "Chinese Wok",
+                                                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/26/fe4b0a7d-cc9f-4be6-9ad2-2b5d94a876eb_1016086.jpg",
+                                                        "locality": "BAWADIYA KALAN",
+                                                        "areaName": "Kolar Road",
+                                                        "costForTwo": "\u20B9250 for two",
+                                                        "cuisines": [
+                                                            "Chinese"
+                                                        ],
+                                                        "veg": true,
+                                                        "parentId": "61955",
+                                                        "avgRatingString": "NEW",
+                                                        "sla": {
+                                                            "deliveryTime": 28,
+                                                            "lastMileTravel": 2,
+                                                            "serviceability": "SERVICEABLE",
+                                                            "slaString": "25-30 mins",
+                                                            "lastMileTravelString": "2.0 km",
+                                                            "iconType": "ICON_TYPE_EMPTY"
+                                                        },
+                                                        "availability": {
+                                                            "nextCloseTime": "2025-02-12 23:30:00",
+                                                            "opened": true
+                                                        },
+                                                        "badges": {},
+                                                        "isOpen": true,
+                                                        "type": "F",
+                                                        "badgesV2": {
+                                                            "entityBadges": {
+                                                                "imageBased": {},
+                                                                "textBased": {},
+                                                                "textExtendedBadges": {}
+                                                            }
+                                                        },
+                                                        "aggregatedDiscountInfoV3": {
+                                                            "header": "\u20B9100 OFF",
+                                                            "subHeader": "ABOVE \u20B9349",
+                                                            "discountTag": "FLAT DEAL"
+                                                        },
+                                                        "orderabilityCommunication": {
+                                                            "title": {},
+                                                            "subTitle": {},
+                                                            "message": {},
+                                                            "customIcon": {}
+                                                        },
+                                                        "differentiatedUi": {
+                                                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                            "differentiatedUiMediaDetails": {
+                                                                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                                "lottie": {},
+                                                                "video": {}
+                                                            }
+                                                        },
+                                                        "reviewsSummary": {},
+                                                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                                        "isNewlyOnboarded": true,
+                                                        "restaurantOfferPresentationInfo": {},
+                                                        "externalRatings": {
+                                                            "aggregatedRating": {
+                                                                "rating": "--"
+                                                            }
+                                                        },
+                                                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                                    },
+                                                    "analytics": {
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
+                                                    },
+                                                    "cta": {
+                                                        "link": "https://www.swiggy.com/city/bhopal/chinese-wok-bawadiya-kalan-kolar-road-rest1016086",
+                                                        "text": "RESTAURANT_MENU",
+                                                        "type": "WEBLINK"
+                                                    },
+                                                    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                                                },
+                                                {
+                                                    "info": {
                                                         "id": "121782",
                                                         "name": "Pizza Hut",
                                                         "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/17/332c63e0-fb15-4f01-bfb1-382550087cef_121782.jpg",
@@ -56451,7 +56530,7 @@ const Body = ()=>{
                                                         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                                     },
                                                     "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
                                                     },
                                                     "cta": {
                                                         "link": "https://www.swiggy.com/city/bhopal/pizza-hut-vidhya-nagar-hoshangabad-road-rest121782",
@@ -56478,7 +56557,7 @@ const Body = ()=>{
                                                         "avgRatingString": "4.2",
                                                         "totalRatingsString": "14",
                                                         "sla": {
-                                                            "deliveryTime": 25,
+                                                            "deliveryTime": 27,
                                                             "lastMileTravel": 1.7,
                                                             "serviceability": "SERVICEABLE",
                                                             "slaString": "25-30 mins",
@@ -56525,7 +56604,7 @@ const Body = ()=>{
                                                         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                                     },
                                                     "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
                                                     },
                                                     "cta": {
                                                         "link": "https://www.swiggy.com/city/bhopal/freshmenu-bawadiya-kalan-gulmohar-colony-rest506118",
@@ -56605,7 +56684,7 @@ const Body = ()=>{
                                                         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                                     },
                                                     "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
                                                     },
                                                     "cta": {
                                                         "link": "https://www.swiggy.com/city/bhopal/subway-kolar-road-chuna-bhatti-rest1003029",
@@ -56632,10 +56711,10 @@ const Body = ()=>{
                                                         "avgRatingString": "4.6",
                                                         "totalRatingsString": "315",
                                                         "sla": {
-                                                            "deliveryTime": 21,
+                                                            "deliveryTime": 16,
                                                             "lastMileTravel": 2.3,
                                                             "serviceability": "SERVICEABLE",
-                                                            "slaString": "20-25 mins",
+                                                            "slaString": "15-20 mins",
                                                             "lastMileTravelString": "2.3 km",
                                                             "iconType": "ICON_TYPE_EMPTY"
                                                         },
@@ -56698,7 +56777,7 @@ const Body = ()=>{
                                                         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                                     },
                                                     "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
                                                     },
                                                     "cta": {
                                                         "link": "https://www.swiggy.com/city/bhopal/baskin-robbins-ice-cream-desserts-aura-mall-gulmohar-colony-rest472704",
@@ -56725,7 +56804,7 @@ const Body = ()=>{
                                                         "avgRatingString": "4.3",
                                                         "totalRatingsString": "4.8K+",
                                                         "sla": {
-                                                            "deliveryTime": 43,
+                                                            "deliveryTime": 42,
                                                             "lastMileTravel": 8.4,
                                                             "serviceability": "SERVICEABLE",
                                                             "slaString": "40-45 mins",
@@ -56791,7 +56870,7 @@ const Body = ()=>{
                                                         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                                     },
                                                     "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
                                                     },
                                                     "cta": {
                                                         "link": "https://www.swiggy.com/city/bhopal/burger-singh-big-punjabi-burgers-db-city-mall-maharana-pratap-nagar-rest572870",
@@ -56861,7 +56940,7 @@ const Body = ()=>{
                                                         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                                     },
                                                     "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
                                                     },
                                                     "cta": {
                                                         "link": "https://www.swiggy.com/city/bhopal/amul-ice-cream-parlour-arera-colony-kolar-road-rest1029558",
@@ -56889,7 +56968,7 @@ const Body = ()=>{
                                                         "avgRatingString": "4.6",
                                                         "totalRatingsString": "18",
                                                         "sla": {
-                                                            "deliveryTime": 17,
+                                                            "deliveryTime": 19,
                                                             "lastMileTravel": 0.4,
                                                             "serviceability": "SERVICEABLE",
                                                             "slaString": "15-20 mins",
@@ -56939,93 +57018,10 @@ const Body = ()=>{
                                                         "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                                     },
                                                     "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
+                                                        "context": "seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2"
                                                     },
                                                     "cta": {
                                                         "link": "https://www.swiggy.com/city/bhopal/the-brooklyn-creamery-healthy-ice-cream-bawadia-kalan-bhopal-shubhalay-rest904007",
-                                                        "text": "RESTAURANT_MENU",
-                                                        "type": "WEBLINK"
-                                                    },
-                                                    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-                                                },
-                                                {
-                                                    "info": {
-                                                        "id": "995568",
-                                                        "name": "FNP Cakes By Ferns N Petals",
-                                                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/2/8/150b6ca2-c0c6-42b9-9cae-ef61249c1ab2_995568.jpg",
-                                                        "locality": "BAWADIYA KALAN",
-                                                        "areaName": "AKRITI BUSINESS CENTRE",
-                                                        "costForTwo": "\u20B9499 for two",
-                                                        "cuisines": [
-                                                            "Desserts",
-                                                            "Bakery",
-                                                            "Sweets",
-                                                            "Ice Cream",
-                                                            "Beverages",
-                                                            "North Indian",
-                                                            "Chinese"
-                                                        ],
-                                                        "avgRating": 3.5,
-                                                        "veg": true,
-                                                        "parentId": "339638",
-                                                        "avgRatingString": "3.5",
-                                                        "totalRatingsString": "2",
-                                                        "sla": {
-                                                            "deliveryTime": 26,
-                                                            "lastMileTravel": 0.2,
-                                                            "serviceability": "SERVICEABLE",
-                                                            "slaString": "25-30 mins",
-                                                            "lastMileTravelString": "0.2 km",
-                                                            "iconType": "ICON_TYPE_EMPTY"
-                                                        },
-                                                        "availability": {
-                                                            "nextCloseTime": "2025-02-12 23:00:00",
-                                                            "opened": true
-                                                        },
-                                                        "badges": {},
-                                                        "isOpen": true,
-                                                        "type": "F",
-                                                        "badgesV2": {
-                                                            "entityBadges": {
-                                                                "imageBased": {},
-                                                                "textBased": {},
-                                                                "textExtendedBadges": {}
-                                                            }
-                                                        },
-                                                        "aggregatedDiscountInfoV3": {
-                                                            "header": "50% OFF",
-                                                            "subHeader": "UPTO \u20B9100"
-                                                        },
-                                                        "orderabilityCommunication": {
-                                                            "title": {},
-                                                            "subTitle": {},
-                                                            "message": {},
-                                                            "customIcon": {}
-                                                        },
-                                                        "differentiatedUi": {
-                                                            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                                                            "differentiatedUiMediaDetails": {
-                                                                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                                                                "lottie": {},
-                                                                "video": {}
-                                                            }
-                                                        },
-                                                        "reviewsSummary": {},
-                                                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                                                        "isNewlyOnboarded": true,
-                                                        "restaurantOfferPresentationInfo": {},
-                                                        "externalRatings": {
-                                                            "aggregatedRating": {
-                                                                "rating": "--"
-                                                            }
-                                                        },
-                                                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                                                    },
-                                                    "analytics": {
-                                                        "context": "seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab"
-                                                    },
-                                                    "cta": {
-                                                        "link": "https://www.swiggy.com/city/bhopal/fnp-cakes-by-ferns-n-petals-bawadiya-kalan-akriti-business-centre-rest995568",
                                                         "text": "RESTAURANT_MENU",
                                                         "type": "WEBLINK"
                                                     },
@@ -60115,7 +60111,7 @@ const Body = ()=>{
                                     "lat": "23.172251",
                                     "lng": "77.44007739999999",
                                     "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36",
-                                    "gandalfRequest": "{\"sortAttribute\":\"relevance\",\"isFiltered\":false,\"queryId\":\"seo-data-1da59528-7f44-403f-8ad7-4db99ba50aab\",\"seoParams\":{\"apiName\":\"FoodHomePage\",\"brandId\":\"\",\"seoUrl\":\"www.swiggy.com\",\"pageType\":\"FOOD_HOME_PAGE\",\"businessLine\":\"FOOD\"}}",
+                                    "gandalfRequest": "{\"sortAttribute\":\"relevance\",\"isFiltered\":false,\"queryId\":\"seo-data-d9c1f17d-fe97-4910-afb4-4f21b1f0f0c2\",\"seoParams\":{\"apiName\":\"FoodHomePage\",\"brandId\":\"\",\"seoUrl\":\"www.swiggy.com\",\"pageType\":\"FOOD_HOME_PAGE\",\"businessLine\":\"FOOD\"}}",
                                     "id": "meta_data",
                                     "metaInfo": {
                                         "pageType": "FOOD_HOME_PAGE",
@@ -60143,10 +60139,10 @@ const Body = ()=>{
                     "cacheExpiryTime": 240,
                     "nextFetch": 1
                 },
-                "tid": "809a3380-a2db-4b7e-b6ef-cd8c4d96ec2d",
-                "sid": "iwd19ad1-5740-4462-8a06-bf4e73f3ab4a",
+                "tid": "7af97c29-abb9-4b79-b329-85358de61967",
+                "sid": "iwfc66ab-f2e2-4457-871c-07aaf28193cf",
                 "deviceId": "26b2cb94-dcb5-9e03-e9dc-d4c11401e19d",
-                "csrfToken": "BGQkA0sptRbs-M_oLqpnwUk1plXbeZ3hgtJeQam0"
+                "csrfToken": "6KaZKMGqSdgT-R3QSC7A93snBAUWQ1LhmdQxqu94"
             };
             // const API= await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=23.172251&lng=77.44007739999999&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
             // const data= await API.json();
