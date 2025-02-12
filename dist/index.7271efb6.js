@@ -60318,7 +60318,7 @@ const RestaurantCard = ({ ...restaurant })=>{
     const { name, cuisines, cloudinaryImageId } = restaurant.info;
     const { lastMileTravelString } = restaurant.info.sla;
     return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
-        className: ` ${theme.bg} card w-64 h-[475px] p-2 shadow-lg m-2  ${theme.text} hover:p-4 duration-500  `,
+        className: `  card w-64 h-[475px] p-2 shadow-lg m-2  text-orange-500 hover:p-4 duration-500  `,
         children: [
             /*#__PURE__*/ (0, _jsxRuntime.jsx)("img", {
                 alt: "",
@@ -62305,6 +62305,7 @@ const RestaurantInfo = ()=>{
     console.log(mainTheme);
     const { dark } = (0, _react.useContext)(_ThemeContext.darkMode);
     const { light } = (0, _react.useContext)(_ThemeContext.lightMode);
+    let theme = light;
     if (mainTheme === "dark") theme = dark;
     else theme = light;
     if (restaurantm && RestaurantInfo) {

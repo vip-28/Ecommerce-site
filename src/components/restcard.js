@@ -12,12 +12,11 @@ const RestaurantCard = ({...restaurant})=>{
     const{lastMileTravelString}=restaurant.info.sla;
 
 
-
     
 
 
     return(
-        <div className={` ${theme.bg} card w-64 h-[475px] p-2 shadow-lg m-2  ${theme.text} hover:p-4 duration-500  `}>
+        <div className={`  card w-64 h-[475px] p-2 shadow-lg m-2  text-orange-500 hover:p-4 duration-500  `}>
             <img  alt="" src={ IMG_CDN_URL+cloudinaryImageId} className="w-full h-52 "></img>
             <h2 className="h-24 font-bold text-2xl font-ChakraPetch my-2 ">{name}</h2>
             <h3 className="h-24">{cuisines.join(" ,")}</h3>

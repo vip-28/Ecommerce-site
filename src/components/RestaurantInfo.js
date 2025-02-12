@@ -59,6 +59,7 @@ dispatch(addItem(item));
 console.log(mainTheme)
 const {dark}= useContext(darkMode)
 const {light}= useContext(lightMode)
+let theme=light;
 if(mainTheme==="dark"){
   theme= dark
   
