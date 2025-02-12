@@ -3042,6 +3042,7 @@ const AppLayout = ()=>{
     }
     const { dark } = (0, _react.useContext)(_darkContext.default);
     const { light } = (0, _react.useContext)(_lightContext.default);
+    let theme = light;
     if (mainTheme === "dark") theme = dark;
     else theme = light;
     return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
