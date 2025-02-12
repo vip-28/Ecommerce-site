@@ -15,6 +15,7 @@ const Cart = () => {
   useEffect(()=>{
     window.scrollTo(0,0);
   },[]);
+  let theme=light;
 
   if (mainTheme === "dark") {
     theme = dark;

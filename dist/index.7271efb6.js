@@ -52935,6 +52935,7 @@ const Body = ()=>{
     const [searchText, setSearchText] = (0, _react.useState)(""); //to create state variables
     const { dark } = (0, _react.useContext)(_ThemeContext.darkMode);
     const { light } = (0, _react.useContext)(_ThemeContext.lightMode);
+    let theme = light;
     if (mainTheme === "dark") theme = dark;
     else theme = light;
     (0, _react.useEffect)(()=>{
@@ -61748,6 +61749,7 @@ const Shimmer = ()=>{
     const { mainTheme } = (0, _reactRouterDom.useOutletContext)();
     const { dark } = (0, _react.useContext)(_ThemeContext.darkMode);
     const { light } = (0, _react.useContext)(_ThemeContext.lightMode);
+    let theme = light;
     if (mainTheme === "dark") theme = dark;
     else theme = light;
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)(_jsxRuntime.Fragment, {
@@ -66592,6 +66594,7 @@ const Cart = ()=>{
     (0, _react.useEffect)(()=>{
         window.scrollTo(0, 0);
     }, []);
+    let theme = light;
     if (mainTheme === "dark") theme = dark;
     else theme = light;
     const cartItems = (0, _reactRedux.useSelector)((store)=>store.cart.items);
