@@ -64,6 +64,7 @@ const Instamart = () => {
 
   const { dark } = useContext(darkMode);
   const { light } = useContext(lightMode);
+  let theme=light;
   if (mainTheme === "dark") {
     theme = dark;
   } else {

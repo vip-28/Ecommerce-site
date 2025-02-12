@@ -641,11 +641,11 @@ const Section = ({ title, description, isVisible, setIsVisible, setNotVisible })
     const { mainTheme } = (0, _reactRouterDom.useOutletContext)();
     const { dark } = (0, _react.useContext)(_ThemeContext.darkMode);
     const { light } = (0, _react.useContext)(_ThemeContext.lightMode);
-    let theme1 = light;
-    if (mainTheme === "dark") theme1 = dark;
-    else theme1 = light;
+    let theme = light;
+    if (mainTheme === "dark") theme = dark;
+    else theme = light;
     return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
-        className: `border-solid  ${theme1.border} border-2 p-2 m-2 font ${theme1.text}`,
+        className: `border-solid  ${theme.border} border-2 p-2 m-2 font ${theme.text}`,
         children: [
             /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
                 className: "flex justify-between",
@@ -679,6 +679,7 @@ const Instamart = ()=>{
     const { mainTheme } = (0, _reactRouterDom.useOutletContext)();
     const { dark } = (0, _react.useContext)(_ThemeContext.darkMode);
     const { light } = (0, _react.useContext)(_ThemeContext.lightMode);
+    let theme = light;
     if (mainTheme === "dark") theme = dark;
     else theme = light;
     const [visibleSection, setVisibleSection] = (0, _react.useState)();
