@@ -60276,9 +60276,6 @@ const Body = ()=>{
                             ]
                         }, restaurant.info.id); // how this shit runs we need to study JS MAP Array
                     })
-                }),
-                /*#__PURE__*/ (0, _jsxRuntime.jsx)(_restcard.Themefinder, {
-                    props: theme
                 })
             ]
         })

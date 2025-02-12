@@ -176,7 +176,7 @@ return (
       })} 
 
     </div>
-    <Themefinder props={theme}/>
+    {/* <Themefinder props={theme}/> */}
     </div>
   </>
 );
