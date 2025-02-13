@@ -8,8 +8,7 @@ export const Themefinder= ({props})=>{
 
 const RestaurantCard = ({...restaurant})=>{
 
-    const {name, cuisines, cloudinaryImageId}= restaurant.info;
-    const{lastMileTravelString}=restaurant.info.sla;
+    const {gymName, cuisines, cloudinaryImageId,reviews,avgRating,areaName}= restaurant;
 
 
     
@@ -17,10 +16,14 @@ const RestaurantCard = ({...restaurant})=>{
 
     return(
         <div className={`  card w-64 h-[475px] p-2 shadow-lg m-2  text-orange-500 hover:p-4 duration-500  `}>
-            <img  alt="" src={ IMG_CDN_URL+cloudinaryImageId} className="w-full h-52 "></img>
-            <h2 className="h-24 font-bold text-2xl font-ChakraPetch my-2 ">{name}</h2>
-            <h3 className="h-24">{cuisines.join(" ,")}</h3>
-            <div className="keywordFood"><h4>{lastMileTravelString}</h4></div>
+            <img  alt="" src={cloudinaryImageId} className="w-full h-52 "></img>
+            <h2 className="h-16 font-bold text-2xl font-ChakraPetch my-2 ">{gymName}</h2>
+            <button className="bg-orange-400 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded">
+  Buy Membership
+</button>
+            <h3 className="h-20 text-orange-800">reviews:{reviews}<br/>Rating:{avgRating}</h3>
+
+            <div className="keywordFood text-orange-800"><h4>{areaName}</h4></div>
             
         </div>
     )

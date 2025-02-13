@@ -70,7 +70,7 @@ const Header = ({settingTheme}) => {
     >
   
       <Title />
-      <div className="text-3xl font-extrabold tracking-wide drop-shadow-lg">QuickEats</div>
+      <div className="text-3xl font-extrabold tracking-wide drop-shadow-lg">QuickGym</div>
 
       <h1>{useOnline() ? `Online : ✔️ User ` : `Offline : ❌ `}</h1>
       <div className="nav-items">

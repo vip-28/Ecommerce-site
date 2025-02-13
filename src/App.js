@@ -82,8 +82,9 @@ let theme=light;
   return (
     <HelmetProvider>
     <Helmet>
-      <title>QuickEats</title>
-      <link rel="icon" type="image/png" href="/favicon.png" />
+      <title>QuickGym</title>
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
     </Helmet>
 
     <div className={`${theme.bgapp} text-white duration-500`}>

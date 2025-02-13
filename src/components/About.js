@@ -8,7 +8,7 @@ const About= ()=>{
 
     <h1>About Us Page</h1>
     <p>
-        This is the React Tutorial for Finding the Path
+        
     </p>
 </div>
     )

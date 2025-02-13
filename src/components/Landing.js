@@ -16,22 +16,22 @@ const Landing= ()=>{
           className="relative w-full h-screen flex items-center justify-center bg-cover bg-center text-white text-center"
           style={{
             backgroundImage:
-              "url('https://t3.ftcdn.net/jpg/01/54/14/86/360_F_154148685_yvijeC6L2SFpvqFJ5H1lunPg40FzCAf1.jpg')",
+              "url('https://t3.ftcdn.net/jpg/08/27/87/60/360_F_827876077_k0EWo3jSiWZPR8fRgsSbZFT9SkrozNuj.jpg')",
           }}
         >
           {/* Overlay for better text readability */}
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       
           <div className="relative z-10 max-w-2xl px-5">
-            <h1 className="text-5xl font-extrabold tracking-wide drop-shadow-lg">QuickEats</h1>
+            <h1 className="text-5xl font-extrabold tracking-wide drop-shadow-lg">QuickGym</h1>
             <h1 className="text-5xl font-extrabold tracking-wide drop-shadow-lg">
-              🍽️ Delicious Food, Delivered Fast
+            💪 Get Your Gym Membership Now
             </h1>
             <p className="mt-4 text-lg opacity-90">
-              Order your favorite meals in just a few clicks and enjoy fresh, tasty food at your doorstep.
+              Gym Membership near Your favourite Gyms and fitness centers at Cheapest Prices
             </p>
             <button className="mt-6 bg-white text-gray-800 px-6 py-3 text-lg font-semibold rounded-full shadow-lg transition hover:bg-gray-200 hover:scale-105 focus:ring-4 focus:ring-white">
-            <Link to="/start">  Order Now 🚀</Link>
+            <Link to="/start">  Get it Now 🚀</Link>
             </button>
           </div>
         </section>
