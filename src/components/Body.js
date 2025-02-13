@@ -169,7 +169,7 @@ return (
         
         return(
            
-        <Link to={"/restaurant/"+restaurant.info.id} key={restaurant.info.id} className="MainCards"> <RestaurantCard {...restaurant} /></Link>
+         <RestaurantCard {...restaurant} />
        
       ) // how this shit runs we need to study JS MAP Array
      
