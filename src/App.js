@@ -21,6 +21,11 @@ import Shimmer from "./components/Shimmer";
 import Landing from "./components/Landing";
 import { Helmet } from "react-helmet";
 import { HelmetProvider } from "react-helmet-async";
+import PrivacyPolicy from "./components/privacy";
+import TermsAndConditions from "./components/TandC";
+import CancellationAndRefund from "./components/cancellation";
+import ShippingAndDelivery from "./components/shipping";
+import ContactUs from "./components/Contact";
 
 const Instamart = lazy(() => import("./components/Instamart"));
 /**
@@ -129,13 +134,25 @@ const appRouter = createBrowserRouter([
         element: <Cart />,
       },
       {
-        path: "/Contact",
-        element: <Contact />,
+        path: "/contactus",
+        element:<ContactUs/>
       },
       {
         path: "/restaurant/:id",
         element: <RestaurantInfo />,
-      },
+      },{
+        path:"/privacypolicy",
+        element:<PrivacyPolicy/>
+      },{
+        path:"/termsandconditions",
+        element:<TermsAndConditions/>
+      },{
+        path:"/cancellationandrefund",
+        element:<CancellationAndRefund/>
+      },{
+        path:"/shippinganddelivery",
+        element:<ShippingAndDelivery/>
+      }
       // {
       //     path:"/Info",
       //     element:<Instamart/>,

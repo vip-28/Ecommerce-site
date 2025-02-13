@@ -2967,6 +2967,10 @@ var _Shimmer = _interopRequireDefault(require("a19a8ecf2ab4a510"));
 var _Landing = _interopRequireDefault(require("be83907dfb0815b3"));
 var _reactHelmet = require("4a5bf2ca4ff7963a");
 var _reactHelmetAsync = require("29b1a1301b223115");
+var _privacy = _interopRequireDefault(require("98903d2f4ca15c66"));
+var _TandC = _interopRequireDefault(require("252a05b09458f617"));
+var _cancellation = _interopRequireDefault(require("c92a68af60a08ff3"));
+var _shipping = _interopRequireDefault(require("d3fc6181972d57b0"));
 var _jsxRuntime = require("81b1698b765d4cf3");
 function _interopRequireDefault(e) {
     return e && e.__esModule ? e : {
@@ -3112,12 +3116,28 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 element: /*#__PURE__*/ (0, _jsxRuntime.jsx)(_cart.default, {})
             },
             {
-                path: "/Contact",
+                path: "/contactus",
                 element: /*#__PURE__*/ (0, _jsxRuntime.jsx)(_Contact.default, {})
             },
             {
                 path: "/restaurant/:id",
                 element: /*#__PURE__*/ (0, _jsxRuntime.jsx)(_RestaurantInfo.default, {})
+            },
+            {
+                path: "/privacypolicy",
+                element: /*#__PURE__*/ (0, _jsxRuntime.jsx)(_privacy.default, {})
+            },
+            {
+                path: "/termsandconditions",
+                element: /*#__PURE__*/ (0, _jsxRuntime.jsx)(_TandC.default, {})
+            },
+            {
+                path: "/cancellationandrefund",
+                element: /*#__PURE__*/ (0, _jsxRuntime.jsx)(_cancellation.default, {})
+            },
+            {
+                path: "/shippinganddelivery",
+                element: /*#__PURE__*/ (0, _jsxRuntime.jsx)(_shipping.default, {})
             }
         ]
     }
@@ -3139,7 +3159,7 @@ $RefreshReg$(_c, "AppLayout");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"45e8193f4240b0ee":"21dqq","486ffccad3562ae":"lOjBx","dcd989cfca1cbe04":"hsJbF","ffbb6890447deef9":"8yaV8","24b4a7b716fba7a5":"8pPOA","3922758b9c784b3e":"4T6KH","5bb39b9c63338f66":"9xmpe","bc1fd572624f782a":"9R1Eu","a2f25dbe5f00bc86":"kvula","7d003e0f393ad8a8":"cgAOG","534aafb30992ece2":"l2Zp9","c6b5e0cfffc70392":"cyxp0","af7b562d990d12b1":"62sf7","ae8fcffc2aeded63":"k2jPV","ce4dea7f633ce591":"97YSD","593b11937494b76b":"kpsOA","1075fd15a469daa6":"iAA6S","a19a8ecf2ab4a510":"g6ZGj","be83907dfb0815b3":"iZyl4","4a5bf2ca4ff7963a":"fcX6K","29b1a1301b223115":"9Jw63","81b1698b765d4cf3":"6AEwr","45bbc3eb0b2df3bc":"eE7sw","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"21dqq":[function(require,module,exports,__globalThis) {
+},{"45e8193f4240b0ee":"21dqq","486ffccad3562ae":"lOjBx","dcd989cfca1cbe04":"hsJbF","ffbb6890447deef9":"8yaV8","24b4a7b716fba7a5":"8pPOA","3922758b9c784b3e":"4T6KH","5bb39b9c63338f66":"9xmpe","bc1fd572624f782a":"9R1Eu","a2f25dbe5f00bc86":"kvula","7d003e0f393ad8a8":"cgAOG","534aafb30992ece2":"l2Zp9","c6b5e0cfffc70392":"cyxp0","af7b562d990d12b1":"62sf7","ae8fcffc2aeded63":"k2jPV","ce4dea7f633ce591":"97YSD","593b11937494b76b":"kpsOA","1075fd15a469daa6":"iAA6S","a19a8ecf2ab4a510":"g6ZGj","be83907dfb0815b3":"iZyl4","4a5bf2ca4ff7963a":"fcX6K","29b1a1301b223115":"9Jw63","81b1698b765d4cf3":"6AEwr","45bbc3eb0b2df3bc":"eE7sw","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","98903d2f4ca15c66":"77Mdu","252a05b09458f617":"hADch","c92a68af60a08ff3":"aIz6D","d3fc6181972d57b0":"xXBg3"}],"21dqq":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("a569817e6ea559f6");
 
@@ -77036,17 +77056,123 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _jsxRuntime = require("32edd9c29811c9d9");
-const Contact = ()=>{
-    return /*#__PURE__*/ (0, _jsxRuntime.jsx)(_jsxRuntime.Fragment, {
-        children: /*#__PURE__*/ (0, _jsxRuntime.jsx)("h1", {
-            children: " CONTACT US "
-        })
+const ContactUs = ()=>{
+    return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
+        className: "max-w-4xl mx-auto p-6 text-orange-500",
+        children: [
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h1", {
+                className: "text-4xl font-bold text-center mb-6",
+                children: "Contact Us"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("section", {
+                className: "mb-10",
+                children: [
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                        className: "text-2xl font-semibold mb-4",
+                        children: "Contact Information"
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                        className: "text-gray-700",
+                        children: "If you prefer to reach out directly, here are our contact details:"
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
+                        className: "mt-4 space-y-2",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("p", {
+                                children: [
+                                    "\uD83D\uDCE7 ",
+                                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("span", {
+                                        className: "font-semibold",
+                                        children: "Email:"
+                                    }),
+                                    " ",
+                                    "vipul.work28@gmail.com"
+                                ]
+                            }),
+                            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("p", {
+                                children: [
+                                    "\uD83D\uDCDE ",
+                                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("span", {
+                                        className: "font-semibold",
+                                        children: "Phone:"
+                                    }),
+                                    " 8959955193"
+                                ]
+                            }),
+                            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("p", {
+                                children: [
+                                    "\uD83D\uDCCD ",
+                                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("span", {
+                                        className: "font-semibold",
+                                        children: "Address:"
+                                    }),
+                                    " 308, B, Sagar Premium Towers phase 2 Kolar Road Bhopal, MP"
+                                ]
+                            })
+                        ]
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("section", {
+                className: "mb-10",
+                children: [
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                        className: "text-2xl font-semibold mb-4",
+                        children: "Frequently Asked Questions"
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
+                        className: "space-y-4",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
+                                className: "border p-4 rounded-lg",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("h3", {
+                                        className: "font-semibold",
+                                        children: "What are your customer support hours?"
+                                    }),
+                                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                                        className: "text-gray-700 mt-2",
+                                        children: "Our support team is available Monday to Friday, 9 AM - 6 PM (EST)."
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
+                                className: "border p-4 rounded-lg",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("h3", {
+                                        className: "font-semibold",
+                                        children: "Can I visit your gym location?"
+                                    }),
+                                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                                        className: "text-gray-700 mt-2",
+                                        children: "Yes! You can visit gyms in their Opening hours and enquire with them too."
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
+                                className: "border p-4 rounded-lg",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("h3", {
+                                        className: "font-semibold",
+                                        children: "How soon will I get a response?"
+                                    }),
+                                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                                        className: "text-gray-700 mt-2",
+                                        children: "We typically respond within 24 hours. Urgent inquiries can be directed to our phone support."
+                                    })
+                                ]
+                            })
+                        ]
+                    })
+                ]
+            })
+        ]
     });
 };
-_c = Contact;
-var _default = exports.default = Contact;
+_c = ContactUs;
+var _default = exports.default = ContactUs;
 var _c;
-$RefreshReg$(_c, "Contact");
+$RefreshReg$(_c, "ContactUs");
 
   $parcel$ReactRefreshHelpers$ee46.postlude(module);
 } finally {
@@ -146509,6 +146635,642 @@ module.exports = function(loader, type) {
     };
 };
 
-},{}]},["aQL8O","7T53S","2kQhy"], "2kQhy", "parcelRequire94c2")
+},{}],"77Mdu":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$ec97 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$ec97.prelude(module);
+
+try {
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.default = void 0;
+var _react = _interopRequireDefault(require("52f6d10c2d886ab8"));
+var _jsxRuntime = require("c7bf23a0a6b354fe");
+function _interopRequireDefault(e) {
+    return e && e.__esModule ? e : {
+        default: e
+    };
+}
+const PrivacyPolicy = ()=>{
+    return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
+        className: "p-8 max-w-4xl mx-auto text-orange-600",
+        children: [
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h1", {
+                className: "text-3xl font-bold mb-6",
+                children: "Privacy Policy"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                className: "mb-4",
+                children: "Welcome to QuickGym! Your privacy is important to us, and we are committed to protecting the information you share with us. This Privacy Policy explains how we collect, use, and protect your data when you use our services."
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                className: "text-2xl font-semibold mt-6",
+                children: "1. Information We Collect"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("p", {
+                className: "mb-2",
+                children: [
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("strong", {
+                        children: "1.1 Personal Information:"
+                    }),
+                    " When you sign up for a membership, we collect your name, email, phone number, address, and payment details."
+                ]
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("p", {
+                className: "mb-2",
+                children: [
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("strong", {
+                        children: "1.2 Fitness Data:"
+                    }),
+                    " If you use our app for tracking workouts, we may collect details like workout duration, calories burned, and fitness progress."
+                ]
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("p", {
+                className: "mb-2",
+                children: [
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("strong", {
+                        children: "1.3 Device & Usage Information:"
+                    }),
+                    " We may collect IP addresses, browser type, device ID, and interactions with our platform for security and analytics purposes."
+                ]
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                className: "text-2xl font-semibold mt-6",
+                children: "2. How We Use Your Information"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("ul", {
+                className: "list-disc pl-5",
+                children: [
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
+                        children: "To manage and improve our gym services."
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
+                        children: "To process membership payments and renewals."
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
+                        children: "To provide personalized workout recommendations."
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
+                        children: "To send promotional offers and updates (if you opt-in)."
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
+                        children: "To ensure security and prevent fraudulent activity."
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                className: "text-2xl font-semibold mt-6",
+                children: "3. How We Protect Your Data"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                className: "mb-4",
+                children: "We implement industry-standard security measures, including encryption, firewalls, and secure servers, to protect your personal information."
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                className: "text-2xl font-semibold mt-6",
+                children: "4. Sharing of Information"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("ul", {
+                className: "list-disc pl-5",
+                children: [
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
+                        children: "We do not sell your data to third parties."
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
+                        children: "We may share information with trusted partners for payment processing and gym management."
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
+                        children: "In cases of legal requirements, we may disclose data to law enforcement."
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                className: "text-2xl font-semibold mt-6",
+                children: "5. Your Rights & Choices"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                className: "mb-2",
+                children: "You have the right to:"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("ul", {
+                className: "list-disc pl-5",
+                children: [
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
+                        children: "Access, update, or delete your personal information."
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
+                        children: "Opt-out of promotional emails."
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
+                        children: "Request a copy of the data we hold about you."
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                className: "text-2xl font-semibold mt-6",
+                children: "6. Cookies & Tracking Technologies"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                className: "mb-4",
+                children: "We use cookies to enhance your experience and improve our website functionality. You can adjust your browser settings to disable cookies if preferred."
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                className: "text-2xl font-semibold mt-6",
+                children: "7. Changes to This Privacy Policy"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                className: "mb-4",
+                children: "We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date."
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                className: "text-2xl font-semibold mt-6",
+                children: "8. Contact Us"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("p", {
+                className: "mb-4",
+                children: [
+                    "If you have any questions regarding this Privacy Policy, please contact us at ",
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("strong", {
+                        children: "vipul.work28@gmail.com"
+                    }),
+                    "."
+                ]
+            })
+        ]
+    });
+};
+_c = PrivacyPolicy;
+var _default = exports.default = PrivacyPolicy;
+var _c;
+$RefreshReg$(_c, "PrivacyPolicy");
+
+  $parcel$ReactRefreshHelpers$ec97.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"52f6d10c2d886ab8":"21dqq","c7bf23a0a6b354fe":"6AEwr","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hADch":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$79ba = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$79ba.prelude(module);
+
+try {
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.default = void 0;
+var _react = _interopRequireDefault(require("5f7c143910839ab0"));
+var _jsxRuntime = require("d5e52a0eb211a131");
+function _interopRequireDefault(e) {
+    return e && e.__esModule ? e : {
+        default: e
+    };
+}
+const TermsAndConditions = ()=>{
+    return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
+        className: "p-10 text-orange-500 mt-20",
+        children: [
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h1", {
+                className: "text-3xl font-bold",
+                children: "Terms and Conditions"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                className: "text-2xl font-semibold mt-6",
+                children: "1. Introduction"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                className: "mt-2",
+                children: "Welcome to QuickGym! By accessing or using our website, mobile app, and gym services, you agree to comply with the following Terms and Conditions. Please read them carefully before proceeding."
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                className: "text-2xl font-semibold mt-6",
+                children: "2. Membership Eligibility"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                className: "mt-2",
+                children: "To register as a QuickGym member, you must be at least 18 years old or have parental consent. QuickGym reserves the right to deny membership at its discretion."
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                className: "text-2xl font-semibold mt-6",
+                children: "3. Membership Fees & Payments"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                className: "mt-2",
+                children: "All membership fees are billed according to the selected plan. Payments are due on the billing date, and failure to pay may result in suspension of services."
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                className: "text-2xl font-semibold mt-6",
+                children: "4. Code of Conduct"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                className: "mt-2",
+                children: "Members must respect the facility, staff, and fellow gym-goers. Any disruptive behavior, harassment, or damage to property may lead to termination of membership."
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                className: "text-2xl font-semibold mt-6",
+                children: "5. Health and Safety"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                className: "mt-2",
+                children: "Members should consult a physician before starting any exercise program. QuickGym is not responsible for injuries resulting from personal fitness activities."
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                className: "text-2xl font-semibold mt-6",
+                children: "6. Liability Waiver"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                className: "mt-2",
+                children: "QuickGym is not liable for personal injuries, lost items, or damages occurring on the premises. Members use the facilities at their own risk."
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                className: "text-2xl font-semibold mt-6",
+                children: "7. Changes to Terms"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                className: "mt-2",
+                children: "QuickGym reserves the right to update these terms at any time. Continued use of our services implies acceptance of the revised terms."
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                className: "text-2xl font-semibold mt-6",
+                children: "8. Contact Information"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                className: "mt-2",
+                children: "For questions or concerns, please contact us at support@quickgym.com."
+            })
+        ]
+    });
+};
+_c = TermsAndConditions;
+var _default = exports.default = TermsAndConditions;
+var _c;
+$RefreshReg$(_c, "TermsAndConditions");
+
+  $parcel$ReactRefreshHelpers$79ba.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"5f7c143910839ab0":"21dqq","d5e52a0eb211a131":"6AEwr","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"aIz6D":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$7664 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$7664.prelude(module);
+
+try {
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.default = void 0;
+var _react = _interopRequireDefault(require("d799b81e4ab2eca6"));
+var _jsxRuntime = require("f6348e0b39185e0b");
+function _interopRequireDefault(e) {
+    return e && e.__esModule ? e : {
+        default: e
+    };
+}
+const CancellationAndRefund = ()=>{
+    return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
+        className: "p-10 text-orange-500 mt-20",
+        children: [
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h1", {
+                className: "text-3xl font-bold",
+                children: "Cancellation and Refund Policy"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                className: "text-2xl font-semibold mt-6",
+                children: "1. Introduction"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                className: "mt-2",
+                children: "At QuickGym, we understand that circumstances may arise that require cancellation or refund requests. This policy outlines the terms and conditions governing cancellations and refunds for our memberships and services."
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                className: "text-2xl font-semibold mt-6",
+                children: "2. Membership Cancellation"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                className: "mt-2",
+                children: "Members may request cancellation of their membership at any time through their account settings or by contacting customer support. The following conditions apply:"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("ul", {
+                className: "list-disc ml-6 mt-2",
+                children: [
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
+                        children: "Monthly memberships must be canceled at least 5 days before the next billing cycle to avoid charges."
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
+                        children: "Annual memberships can be canceled at any time, but refunds are subject to the refund policy outlined below."
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
+                        children: "Members on promotional or discounted plans may not be eligible for refunds."
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                className: "text-2xl font-semibold mt-6",
+                children: "3. Refund Policy"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                className: "mt-2",
+                children: "Refunds are granted under the following conditions:"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("ul", {
+                className: "list-disc ml-6 mt-2",
+                children: [
+                    /*#__PURE__*/ (0, _jsxRuntime.jsxs)("li", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxRuntime.jsx)("strong", {
+                                children: "7-Day Cooling-Off Period:"
+                            }),
+                            " New members who cancel within 7 days of their sign-up date may receive a full refund, provided they have not used the gym services extensively."
+                        ]
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsxs)("li", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxRuntime.jsx)("strong", {
+                                children: "Partial Refunds:"
+                            }),
+                            " Members who cancel an annual plan after the 7-day period may receive a prorated refund minus any administrative fees."
+                        ]
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsxs)("li", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxRuntime.jsx)("strong", {
+                                children: "No Refunds:"
+                            }),
+                            " Monthly memberships, once billed, are non-refundable."
+                        ]
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsxs)("li", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxRuntime.jsx)("strong", {
+                                children: "Class & Personal Training Fees:"
+                            }),
+                            " Refunds for booked classes or personal training sessions are only available if canceled at least 24 hours in advance."
+                        ]
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                className: "text-2xl font-semibold mt-6",
+                children: "4. Refund Processing Time"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                className: "mt-2",
+                children: "Once a refund request is approved, the processing time varies based on the payment method used:"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("ul", {
+                className: "list-disc ml-6 mt-2",
+                children: [
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
+                        children: "Credit/Debit Card: 5-7 business days"
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
+                        children: "Bank Transfers: 7-10 business days"
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
+                        children: "Digital Wallets: 3-5 business days"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                className: "text-2xl font-semibold mt-6",
+                children: "5. Exceptions"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                className: "mt-2",
+                children: "No refunds will be provided under the following circumstances:"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("ul", {
+                className: "list-disc ml-6 mt-2",
+                children: [
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
+                        children: "Membership was revoked due to violation of our Terms and Conditions."
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
+                        children: "Refund request is made beyond the applicable cancellation period."
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
+                        children: "Misuse of services, fraudulent activity, or policy abuse."
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                className: "text-2xl font-semibold mt-6",
+                children: "6. Contact Information"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                className: "mt-2",
+                children: "For cancellation and refund requests, please contact our support team:"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("ul", {
+                className: "list-disc ml-6 mt-2",
+                children: [
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
+                        children: "Email: support@quickgym.com"
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
+                        children: "Phone: [Insert Contact Number]"
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
+                        children: "Address: [Insert Gym Address]"
+                    })
+                ]
+            })
+        ]
+    });
+};
+_c = CancellationAndRefund;
+var _default = exports.default = CancellationAndRefund;
+var _c;
+$RefreshReg$(_c, "CancellationAndRefund");
+
+  $parcel$ReactRefreshHelpers$7664.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"d799b81e4ab2eca6":"21dqq","f6348e0b39185e0b":"6AEwr","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"xXBg3":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$1b37 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$1b37.prelude(module);
+
+try {
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.default = void 0;
+var _jsxRuntime = require("9b9733dfc9a4bcdd");
+const ShippingAndDelivery = ()=>{
+    return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
+        className: "max-w-4xl mx-auto p-6 text-orange-500",
+        children: [
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("h1", {
+                className: "text-4xl font-bold text-center mb-6",
+                children: "Shipping & Delivery"
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("section", {
+                className: "mb-8",
+                children: [
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                        className: "text-2xl font-semibold mb-3",
+                        children: "Digital Membership Delivery"
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                        className: "text-gray-700",
+                        children: "Once you complete your purchase, your gym membership details will be delivered instantly to your registered email. You will receive a confirmation email with your membership ID and login credentials for accessing our gym facilities and online resources."
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("section", {
+                className: "mb-8",
+                children: [
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                        className: "text-2xl font-semibold mb-3",
+                        children: "Physical Product Shipping"
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                        className: "text-gray-700",
+                        children: "If you have purchased any physical items such as gym merchandise, supplements, or accessories, we will process your order within 24-48 hours. Shipping times vary based on your location and chosen delivery method."
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsxs)("ul", {
+                        className: "list-disc pl-6 text-gray-700 mt-3",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
+                                children: "Standard Shipping (5-7 business days)"
+                            }),
+                            /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
+                                children: "Express Shipping (2-3 business days)"
+                            }),
+                            /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
+                                children: "Overnight Shipping (1 business day)"
+                            })
+                        ]
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("section", {
+                className: "mb-8",
+                children: [
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                        className: "text-2xl font-semibold mb-3",
+                        children: "Estimated Delivery Times"
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                        className: "text-gray-700",
+                        children: "Delivery times depend on your Internet Connection and the shipping option selected at checkout, Usually it doesnt take more then 2 working days to get the Order but if no response comes then you can contact us"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("section", {
+                className: "mb-8",
+                children: [
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                        className: "text-2xl font-semibold mb-3",
+                        children: "Order Tracking"
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                        className: "text-gray-700",
+                        children: "Once your order is shipped, you will receive a tracking number via email. You can use this number to track your package in real time."
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("section", {
+                className: "mb-8",
+                children: [
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                        className: "text-2xl font-semibold mb-3",
+                        children: "Frequently Asked Questions"
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
+                        className: "space-y-4",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
+                                className: "border p-4 rounded-lg",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("h3", {
+                                        className: "font-semibold",
+                                        children: "How do I receive my digital membership?"
+                                    }),
+                                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                                        className: "text-gray-700 mt-2",
+                                        children: "Your membership details will be sent instantly to your email after purchase. If you don\u2019t receive it within 5 minutes, please check your spam folder or contact support."
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
+                                className: "border p-4 rounded-lg",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("h3", {
+                                        className: "font-semibold",
+                                        children: "Can I change my shipping address after placing an order?"
+                                    }),
+                                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                                        className: "text-gray-700 mt-2",
+                                        children: "We process orders quickly, but if you need to update your shipping address, please contact us immediately at vipul.work28@gmail.com"
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
+                                className: "border p-4 rounded-lg",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("h3", {
+                                        className: "font-semibold",
+                                        children: "What should I do if I haven\u2019t received my order?"
+                                    }),
+                                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                                        className: "text-gray-700 mt-2",
+                                        children: "If your order hasn\u2019t arrived within the estimated delivery time, please track your shipment or reach out to us for assistance."
+                                    })
+                                ]
+                            })
+                        ]
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("section", {
+                className: "mb-8",
+                children: [
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("h2", {
+                        className: "text-2xl font-semibold mb-3",
+                        children: "Need Help?"
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                        className: "text-gray-700",
+                        children: "If you have any questions or concerns regarding your order, feel free to contact our support team at:"
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                        className: "mt-2 font-semibold",
+                        children: "Email: vipul.work28@gmail.com"
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
+                        className: "font-semibold",
+                        children: "Phone: 8959955193"
+                    })
+                ]
+            })
+        ]
+    });
+};
+_c = ShippingAndDelivery;
+var _default = exports.default = ShippingAndDelivery;
+var _c;
+$RefreshReg$(_c, "ShippingAndDelivery");
+
+  $parcel$ReactRefreshHelpers$1b37.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"9b9733dfc9a4bcdd":"6AEwr","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["aQL8O","7T53S","2kQhy"], "2kQhy", "parcelRequire94c2")
 
 //# sourceMappingURL=index.7271efb6.js.map
