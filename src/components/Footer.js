@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Footer = ()=>{
         const [openSection, setOpenSection] = useState(null);
@@ -133,6 +134,15 @@ For any questions regarding these terms, please contact us at details given belo
         <p className="text-lg">📍 SPT phase-2, Kolar Road, Bhopal, Madhya Pradesh, India</p>
         <p className="text-lg">📞 +91 89599 55193</p>
       </div>
+      <div className="flex text-white bg-neutral-700 justify-center gap-36">
+       <Link to="/privacypolicy"> <div className="font-bold">Privacy Policy</div></Link>
+       <Link to="/termsandconditions"> <div className="font-bold">Terms and Conditions</div></Link>
+       <Link to="/cancellationandrefund"> <div className="font-bold">Cancellation And Refund</div></Link>
+       <Link to="/shippinganddelivery"> <div className="font-bold">Shipping And Delivery</div></Link>
+       <Link to="/contactus"> <div className="font-bold">Contact Us</div></Link>
+
+        </div>
+      
 
       {/* Social Media Links */}
       <div className="flex justify-center items-center gap-10 h-44 bg-neutral-700">
@@ -142,8 +152,8 @@ For any questions regarding these terms, please contact us at details given belo
         <a href="https://www.linkedin.com/in/vipul-jaiswal-08636628b/" target="_blank">
           <img className="h-12 rounded-full" src="https://i.pinimg.com/originals/29/6b/a0/296ba00c8098dee633d2eab414cea364.png" alt="GitHub" />
         </a>
+        
       </div>
-      
 
       {/* Dropdown Sections */}
       

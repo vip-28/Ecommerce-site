@@ -3159,7 +3159,7 @@ $RefreshReg$(_c, "AppLayout");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"45e8193f4240b0ee":"21dqq","486ffccad3562ae":"lOjBx","dcd989cfca1cbe04":"hsJbF","ffbb6890447deef9":"8yaV8","24b4a7b716fba7a5":"8pPOA","3922758b9c784b3e":"4T6KH","5bb39b9c63338f66":"9xmpe","bc1fd572624f782a":"9R1Eu","a2f25dbe5f00bc86":"kvula","7d003e0f393ad8a8":"cgAOG","534aafb30992ece2":"l2Zp9","c6b5e0cfffc70392":"cyxp0","af7b562d990d12b1":"62sf7","ae8fcffc2aeded63":"k2jPV","ce4dea7f633ce591":"97YSD","593b11937494b76b":"kpsOA","1075fd15a469daa6":"iAA6S","a19a8ecf2ab4a510":"g6ZGj","be83907dfb0815b3":"iZyl4","4a5bf2ca4ff7963a":"fcX6K","29b1a1301b223115":"9Jw63","81b1698b765d4cf3":"6AEwr","45bbc3eb0b2df3bc":"eE7sw","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","98903d2f4ca15c66":"77Mdu","252a05b09458f617":"hADch","c92a68af60a08ff3":"aIz6D","d3fc6181972d57b0":"xXBg3"}],"21dqq":[function(require,module,exports,__globalThis) {
+},{"45e8193f4240b0ee":"21dqq","486ffccad3562ae":"lOjBx","dcd989cfca1cbe04":"hsJbF","ffbb6890447deef9":"8yaV8","24b4a7b716fba7a5":"8pPOA","3922758b9c784b3e":"4T6KH","5bb39b9c63338f66":"9xmpe","bc1fd572624f782a":"9R1Eu","a2f25dbe5f00bc86":"kvula","7d003e0f393ad8a8":"cgAOG","534aafb30992ece2":"l2Zp9","c6b5e0cfffc70392":"cyxp0","af7b562d990d12b1":"62sf7","ae8fcffc2aeded63":"k2jPV","ce4dea7f633ce591":"97YSD","593b11937494b76b":"kpsOA","1075fd15a469daa6":"iAA6S","a19a8ecf2ab4a510":"g6ZGj","be83907dfb0815b3":"iZyl4","4a5bf2ca4ff7963a":"fcX6K","29b1a1301b223115":"9Jw63","98903d2f4ca15c66":"77Mdu","252a05b09458f617":"hADch","c92a68af60a08ff3":"aIz6D","d3fc6181972d57b0":"xXBg3","81b1698b765d4cf3":"6AEwr","45bbc3eb0b2df3bc":"eE7sw","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"21dqq":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("a569817e6ea559f6");
 
@@ -76736,6 +76736,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _react = require("1a6bddd4cf39ea1f");
+var _reactRouterDom = require("e137ce8f55510bd5");
 var _jsxRuntime = require("558547878df7dd0");
 const Footer = ()=>{
     const [openSection, setOpenSection] = (0, _react.useState)(null);
@@ -76900,6 +76901,61 @@ For any questions regarding these terms, please contact us at details given belo
                 ]
             }),
             /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
+                className: "flex text-white bg-neutral-700 justify-center gap-36",
+                children: [
+                    /*#__PURE__*/ (0, _jsxRuntime.jsxs)(_reactRouterDom.Link, {
+                        to: "/privacypolicy",
+                        children: [
+                            " ",
+                            /*#__PURE__*/ (0, _jsxRuntime.jsx)("div", {
+                                className: "font-bold",
+                                children: "Privacy Policy"
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsxs)(_reactRouterDom.Link, {
+                        to: "/termsandconditions",
+                        children: [
+                            " ",
+                            /*#__PURE__*/ (0, _jsxRuntime.jsx)("div", {
+                                className: "font-bold",
+                                children: "Terms and Conditions"
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsxs)(_reactRouterDom.Link, {
+                        to: "/cancellationandrefund",
+                        children: [
+                            " ",
+                            /*#__PURE__*/ (0, _jsxRuntime.jsx)("div", {
+                                className: "font-bold",
+                                children: "Cancellation And Refund"
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsxs)(_reactRouterDom.Link, {
+                        to: "/shippinganddelivery",
+                        children: [
+                            " ",
+                            /*#__PURE__*/ (0, _jsxRuntime.jsx)("div", {
+                                className: "font-bold",
+                                children: "Shipping And Delivery"
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsxs)(_reactRouterDom.Link, {
+                        to: "/contactus",
+                        children: [
+                            " ",
+                            /*#__PURE__*/ (0, _jsxRuntime.jsx)("div", {
+                                className: "font-bold",
+                                children: "Contact Us"
+                            })
+                        ]
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
                 className: "flex justify-center items-center gap-10 h-44 bg-neutral-700",
                 children: [
                     /*#__PURE__*/ (0, _jsxRuntime.jsx)("a", {
@@ -76935,7 +76991,7 @@ $RefreshReg$(_c, "Footer");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"1a6bddd4cf39ea1f":"21dqq","558547878df7dd0":"6AEwr","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9R1Eu":[function(require,module,exports,__globalThis) {
+},{"1a6bddd4cf39ea1f":"21dqq","558547878df7dd0":"6AEwr","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","e137ce8f55510bd5":"9xmpe"}],"9R1Eu":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$5b98 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -146567,74 +146623,6 @@ module.exports = function shallowEqual(objA, objB, compare, compareContext) {
     return true;
 };
 
-},{}],"eE7sw":[function(require,module,exports,__globalThis) {
-module.exports = require("22fb5e16a2a8c8e8")(require("22fd0e76914b0fbf").getBundleURL('aXMci') + "Instamart.0762395e.js").catch((err)=>{
-    delete module.bundle.cache[module.id];
-    throw err;
-}).then(()=>module.bundle.root('gB4Fs'));
-
-},{"22fb5e16a2a8c8e8":"61B45","22fd0e76914b0fbf":"lgJ39","gB4Fs":"gB4Fs"}],"61B45":[function(require,module,exports,__globalThis) {
-"use strict";
-var cacheLoader = require("ca2a84f7fa4a3bb0");
-module.exports = cacheLoader(function(bundle) {
-    return new Promise(function(resolve, reject) {
-        // Don't insert the same script twice (e.g. if it was already in the HTML)
-        var existingScripts = document.getElementsByTagName('script');
-        if ([].concat(existingScripts).some(function(script) {
-            return script.src === bundle;
-        })) {
-            resolve();
-            return;
-        }
-        var preloadLink = document.createElement('link');
-        preloadLink.href = bundle;
-        preloadLink.rel = 'preload';
-        preloadLink.as = 'script';
-        document.head.appendChild(preloadLink);
-        var script = document.createElement('script');
-        script.async = true;
-        script.type = 'text/javascript';
-        script.src = bundle;
-        script.onerror = function(e) {
-            var error = new TypeError("Failed to fetch dynamically imported module: ".concat(bundle, ". Error: ").concat(e.message));
-            script.onerror = script.onload = null;
-            script.remove();
-            reject(error);
-        };
-        script.onload = function() {
-            script.onerror = script.onload = null;
-            resolve();
-        };
-        document.getElementsByTagName('head')[0].appendChild(script);
-    });
-});
-
-},{"ca2a84f7fa4a3bb0":"j49pS"}],"j49pS":[function(require,module,exports,__globalThis) {
-"use strict";
-var cachedBundles = {};
-var cachedPreloads = {};
-var cachedPrefetches = {};
-function getCache(type) {
-    switch(type){
-        case 'preload':
-            return cachedPreloads;
-        case 'prefetch':
-            return cachedPrefetches;
-        default:
-            return cachedBundles;
-    }
-}
-module.exports = function(loader, type) {
-    return function(bundle) {
-        var cache = getCache(type);
-        if (cache[bundle]) return cache[bundle];
-        return cache[bundle] = loader.apply(null, arguments).catch(function(e) {
-            delete cache[bundle];
-            throw e;
-        });
-    };
-};
-
 },{}],"77Mdu":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$ec97 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
@@ -147271,6 +147259,74 @@ $RefreshReg$(_c, "ShippingAndDelivery");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"9b9733dfc9a4bcdd":"6AEwr","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["aQL8O","7T53S","2kQhy"], "2kQhy", "parcelRequire94c2")
+},{"9b9733dfc9a4bcdd":"6AEwr","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"eE7sw":[function(require,module,exports,__globalThis) {
+module.exports = require("22fb5e16a2a8c8e8")(require("22fd0e76914b0fbf").getBundleURL('aXMci') + "Instamart.0762395e.js").catch((err)=>{
+    delete module.bundle.cache[module.id];
+    throw err;
+}).then(()=>module.bundle.root('gB4Fs'));
+
+},{"22fb5e16a2a8c8e8":"61B45","22fd0e76914b0fbf":"lgJ39","gB4Fs":"gB4Fs"}],"61B45":[function(require,module,exports,__globalThis) {
+"use strict";
+var cacheLoader = require("ca2a84f7fa4a3bb0");
+module.exports = cacheLoader(function(bundle) {
+    return new Promise(function(resolve, reject) {
+        // Don't insert the same script twice (e.g. if it was already in the HTML)
+        var existingScripts = document.getElementsByTagName('script');
+        if ([].concat(existingScripts).some(function(script) {
+            return script.src === bundle;
+        })) {
+            resolve();
+            return;
+        }
+        var preloadLink = document.createElement('link');
+        preloadLink.href = bundle;
+        preloadLink.rel = 'preload';
+        preloadLink.as = 'script';
+        document.head.appendChild(preloadLink);
+        var script = document.createElement('script');
+        script.async = true;
+        script.type = 'text/javascript';
+        script.src = bundle;
+        script.onerror = function(e) {
+            var error = new TypeError("Failed to fetch dynamically imported module: ".concat(bundle, ". Error: ").concat(e.message));
+            script.onerror = script.onload = null;
+            script.remove();
+            reject(error);
+        };
+        script.onload = function() {
+            script.onerror = script.onload = null;
+            resolve();
+        };
+        document.getElementsByTagName('head')[0].appendChild(script);
+    });
+});
+
+},{"ca2a84f7fa4a3bb0":"j49pS"}],"j49pS":[function(require,module,exports,__globalThis) {
+"use strict";
+var cachedBundles = {};
+var cachedPreloads = {};
+var cachedPrefetches = {};
+function getCache(type) {
+    switch(type){
+        case 'preload':
+            return cachedPreloads;
+        case 'prefetch':
+            return cachedPrefetches;
+        default:
+            return cachedBundles;
+    }
+}
+module.exports = function(loader, type) {
+    return function(bundle) {
+        var cache = getCache(type);
+        if (cache[bundle]) return cache[bundle];
+        return cache[bundle] = loader.apply(null, arguments).catch(function(e) {
+            delete cache[bundle];
+            throw e;
+        });
+    };
+};
+
+},{}]},["aQL8O","7T53S","2kQhy"], "2kQhy", "parcelRequire94c2")
 
 //# sourceMappingURL=index.7271efb6.js.map
