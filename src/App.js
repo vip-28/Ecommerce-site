@@ -19,6 +19,8 @@ import lightMode from "./utils/lightContext";
 import darkMode from "./utils/darkContext";
 import Shimmer from "./components/Shimmer";
 import Landing from "./components/Landing";
+import { Helmet } from "react-helmet";
+import { HelmetProvider } from "react-helmet-async";
 
 const Instamart = lazy(() => import("./components/Instamart"));
 /**
@@ -77,13 +79,19 @@ let theme=light;
   } else {
     theme = light;
   }
-
   return (
-      <div className={`${theme.bgapp} text-white duration-500`}>
-        <Header settingTheme={settingTheme} />
-        <Outlet context={{ mainTheme }} />
-        <Footer />
-      </div>
+    <HelmetProvider>
+    <Helmet>
+      <title>QuickEats</title>
+      <link rel="icon" type="image/png" href="/favicon.png" />
+    </Helmet>
+
+    <div className={`${theme.bgapp} text-white duration-500`}>
+      <Header settingTheme={settingTheme} />
+      <Outlet context={{ mainTheme }} />
+      <Footer />
+    </div>
+  </HelmetProvider>
   );
 };
 
@@ -140,8 +148,9 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <Provider store={store}>
-
-<RouterProvider router={appRouter} />
+  <HelmetProvider>
+    <RouterProvider router={appRouter} />
+  </HelmetProvider>
 </Provider>
 )
 ;
