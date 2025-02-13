@@ -85,12 +85,7 @@ const Header = ({settingTheme}) => {
               About
             </Link>
           </li>
-          <li>
-            <Link className="HeaderLink" to="/Contact">
-              {" "}
-              Contact Us{" "}
-            </Link>
-          </li>
+          
           <li>
             <Link className="HeaderLink" to="/Info">
               {" "}

@@ -26634,17 +26634,6 @@ const Header = ({ settingTheme })=>{
                             /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
                                 children: /*#__PURE__*/ (0, _jsxRuntime.jsxs)(_reactRouterDom.Link, {
                                     className: "HeaderLink",
-                                    to: "/Contact",
-                                    children: [
-                                        " ",
-                                        "Contact Us",
-                                        " "
-                                    ]
-                                })
-                            }),
-                            /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
-                                children: /*#__PURE__*/ (0, _jsxRuntime.jsxs)(_reactRouterDom.Link, {
-                                    className: "HeaderLink",
                                     to: "/Info",
                                     children: [
                                         " ",
