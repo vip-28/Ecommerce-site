@@ -129,7 +129,7 @@ For any questions regarding these terms, please contact us at details given belo
         ))}
       </div>
         <p className="text-lg font-semibold">Vipul Jaiswal</p>
-        <p className="text-lg">📧 vjaiswal.2810@gmail.com</p>
+        <p className="text-lg">📧 vipul.work28@gmail.com</p>
         <p className="text-lg">📍 SPT phase-2, Kolar Road, Bhopal, Madhya Pradesh, India</p>
         <p className="text-lg">📞 +91 89599 55193</p>
       </div>

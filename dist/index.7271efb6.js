@@ -83975,7 +83975,7 @@ For any questions regarding these terms, please contact us at details given belo
                     }),
                     /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
                         className: "text-lg",
-                        children: "\uD83D\uDCE7 vjaiswal.2810@gmail.com"
+                        children: "\uD83D\uDCE7 vipul.work28@gmail.com"
                     }),
                     /*#__PURE__*/ (0, _jsxRuntime.jsx)("p", {
                         className: "text-lg",
